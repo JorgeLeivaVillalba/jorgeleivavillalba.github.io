@@ -54,6 +54,7 @@ p {
     height: 100%;
     min-height: 800px;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 .sidebar-wrapper a {
@@ -84,6 +85,8 @@ p {
 
 .sidebar-wrapper .profile {
     margin-bottom: 15px;
+    height: 220px;
+    width: auto;
 }
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
@@ -105,7 +108,7 @@ p {
 }
 
 .sidebar-wrapper .container-block {
-    padding: 30px;
+    padding: 25px;
 }
 
 .sidebar-wrapper .container-block-title {
@@ -299,6 +302,6 @@ p {
         display: inline-block;
         float: left;
         width: 30%;
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 }
