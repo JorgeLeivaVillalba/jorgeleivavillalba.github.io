@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #1a454f;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -85,7 +85,7 @@ p {
 
 .sidebar-wrapper .profile {
     margin-bottom: 15px;
-    max height: 220px;
+    max-height: 220px;
     width: auto;
 }
 
@@ -253,6 +253,7 @@ p {
 .skillset .item {
     margin-bottom: 15px;
     overflow: hidden;
+    margin-right: 15px;
 }
 
 .skillset .level-title {
@@ -274,24 +275,22 @@ p {
     background: #68bacd;
 }
 
-.footer {
-    padding: 30px;
-    padding-top: 60px;
-}
-
 @media (max-width: 767.98px) {
     .sidebar-wrapper {
         position: static;
         width: inherit;
     }
+
     .main-wrapper {
         padding: 30px;
     }
+
     .main-wrapper .time {
         position: static;
         display: block;
         margin-top: 5px;
     }
+
     .main-wrapper .upper-row {
         margin-bottom: 0;
     }
@@ -303,5 +302,40 @@ p {
         float: left;
         width: 30%;
         margin-bottom: 10px;
+    }
+}
+
+@media print {
+    .wrapper {
+        background: #fff;
+        width: 1000pxs;
+        position: absolute;
+    }
+
+    .sidebar-wrapper {
+        background: #42A8C0;
+        position: relative;
+        float: right;
+        right: 0;
+        width: 270px;
+        height: initial;
+        margin: 0%;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .main-wrapper .section {
+        margin-bottom: 20px;
+    }
+
+    .sidebar-wrapper .container-block {
+        padding: 17px;
+    }
+    .skillset .item {
+        margin-bottom: 15px;
+        overflow: hidden;
+        max-width:70%;
     }
 }
