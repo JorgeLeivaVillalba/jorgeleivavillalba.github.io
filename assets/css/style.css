@@ -308,7 +308,7 @@ p {
 @media print {
     .wrapper {
         background: #fff;
-        width: 1000pxs;
+        width: 1000px;
         position: absolute;
     }
 
@@ -317,7 +317,7 @@ p {
         position: relative;
         float: right;
         right: 0;
-        width: 270px;
+        width: 260px;
         height: initial;
         margin: 0%;
     }
@@ -327,11 +327,11 @@ p {
     }
 
     .main-wrapper .section {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .sidebar-wrapper .container-block {
-        padding: 17px;
+        padding: 15px;
     }
     .skillset .item {
         margin-bottom: 15px;
